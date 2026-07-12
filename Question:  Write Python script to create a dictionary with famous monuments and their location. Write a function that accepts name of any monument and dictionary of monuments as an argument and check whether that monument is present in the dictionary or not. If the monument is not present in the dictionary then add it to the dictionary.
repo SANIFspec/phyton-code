@@ -1,0 +1,15 @@
+def check(name,d):
+    if name in d:
+        print("Present")
+        print("Location =",d[name])
+    else:
+        place=input("Enter location: ")
+        d[name]=place
+        print("Added")
+
+d={"Taj Mahal":"Agra","Qutub Minar":"Delhi","Gateway of India":"Mumbai"}
+
+name=input("Enter monument name: ")
+check(name,d)
+
+print(d)
