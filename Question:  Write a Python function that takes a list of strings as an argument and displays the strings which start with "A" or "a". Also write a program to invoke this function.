@@ -1,0 +1,12 @@
+def display(a):
+    for i in a:
+        if i.startswith("A") or i.startswith("a"):
+            print(i)
+
+l=[]
+n=int(input("Enter number of words: "))
+for i in range(n):
+    x=input("Enter word: ")
+    l.append(x)
+
+display(l)
