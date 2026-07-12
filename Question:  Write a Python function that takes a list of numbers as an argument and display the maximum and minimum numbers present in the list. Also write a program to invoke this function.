@@ -1,0 +1,11 @@
+def max_min(a):
+    print("Maximum =",max(a))
+    print("Minimum =",min(a))
+
+l=[]
+n=int(input("Enter number of elements: "))
+for i in range(n):
+    x=int(input("Enter number: "))
+    l.append(x)
+
+max_min(l)
